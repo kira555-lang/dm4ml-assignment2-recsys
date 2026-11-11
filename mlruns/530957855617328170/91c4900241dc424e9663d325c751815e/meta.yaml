@@ -1,0 +1,14 @@
+artifact_uri: file:C:/Users/user/Documents/Assignment2/mlruns/530957855617328170/91c4900241dc424e9663d325c751815e/artifacts
+end_time: 1794426553482
+entry_point_name: ''
+experiment_id: '530957855617328170'
+lifecycle_stage: active
+run_id: 91c4900241dc424e9663d325c751815e
+run_name: Eval_Comparison_K5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1794426553291
+status: 3
+tags: []
+user_id: user

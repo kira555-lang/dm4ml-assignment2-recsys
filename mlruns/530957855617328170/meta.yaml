@@ -1,0 +1,9 @@
+artifact_location: file:C:/Users/user/Documents/Assignment2/mlruns/530957855617328170
+creation_time: 1794426486413
+effective_trace_archival_retention: null
+experiment_id: '530957855617328170'
+last_update_time: 1794426486413
+lifecycle_stage: active
+name: DM4ML_Assignment2_RecSys
+trace_location: null
+workspace: default

@@ -1,0 +1,29 @@
+project_name: "CineStream_RecSys_Pipeline"
+random_seed: 42
+
+paths:
+  raw_dir: "data/raw"
+  processed_dir: "data/processed"
+  features_dir: "data/features"
+  errors_dir: "data/errors"
+  models_dir: "models"
+  reports_dir: "reports"
+
+ingestion:
+  num_users: 600
+  num_items: 250
+  num_interactions: 18000
+  anomaly_rate: 0.04  # Inject 4% dirty records to test validation quarantine
+
+preparation:
+  split_quantile: 0.80  # 80% historical train, 20% future test (time-based)
+
+training:
+  mlflow_tracking_uri: "sqlite:///mlflow.db"
+  experiment_name: "DM4ML_Assignment2_RecSys"
+  svd_components: 24
+  svd_iterations: 15
+
+evaluation:
+  k_values: [5, 10]
+  relevance_threshold: 3.5

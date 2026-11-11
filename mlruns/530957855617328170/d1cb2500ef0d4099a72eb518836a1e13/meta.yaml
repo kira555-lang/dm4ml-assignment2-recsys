@@ -1,0 +1,14 @@
+artifact_uri: file:C:/Users/user/Documents/Assignment2/mlruns/530957855617328170/d1cb2500ef0d4099a72eb518836a1e13/artifacts
+end_time: 1794426552162
+entry_point_name: ''
+experiment_id: '530957855617328170'
+lifecycle_stage: active
+run_id: d1cb2500ef0d4099a72eb518836a1e13
+run_name: Baseline_Popularity_Model
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1794426552017
+status: 3
+tags: []
+user_id: user

@@ -1,0 +1,15 @@
+{
+    "validation_timestamp": "2026-11-12 01:51:18",
+    "total_raw_interactions": 18144,
+    "total_valid_interactions": 17424,
+    "total_quarantined_records": 720,
+    "pass_rate_percentage": 96.03,
+    "Check_Breakdown": {
+        "missing_values_count": 144,
+        "duplicate_records_count": 144,
+        "invalid_ratings_count": 144,
+        "invalid_timestamps_count": 144,
+        "referential_integrity_failures": 144
+    },
+    "quarantine_file": "data/errors\\quarantined_interactions.csv"
+}

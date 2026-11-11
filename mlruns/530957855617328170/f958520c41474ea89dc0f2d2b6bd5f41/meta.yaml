@@ -1,0 +1,14 @@
+artifact_uri: file:C:/Users/user/Documents/Assignment2/mlruns/530957855617328170/f958520c41474ea89dc0f2d2b6bd5f41/artifacts
+end_time: 1794426492744
+entry_point_name: ''
+experiment_id: '530957855617328170'
+lifecycle_stage: active
+run_id: f958520c41474ea89dc0f2d2b6bd5f41
+run_name: Personalized_SVD_Hybrid_Model
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1794426492542
+status: 3
+tags: []
+user_id: user
