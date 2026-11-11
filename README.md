@@ -59,13 +59,13 @@ This single command executes all 7 stages sequentially, populates `data/`, `mode
 python generate_diagram.py
 ```
 
+
+
 ### Step 4: View MLflow Experiment Tracking UI
 ```powershell
 python -m mlflow ui --backend-store-uri sqlite:///mlflow.db --host 127.0.0.1 --port 8080
-
----
-
-## 5. Feature Catalog
+```
+### 5. Feature Catalog
 | Feature Name | Entity Level | Data Type | Source Table | Description & Logic |
 | :--- | :--- | :--- | :--- | :--- |
 | `activity_count` | User | `int64` | `user_features.parquet` | Total historical validated interactions per user. |
@@ -80,6 +80,7 @@ python -m mlflow ui --backend-store-uri sqlite:///mlflow.db --host 127.0.0.1 --p
 | `item_age_years` | Item | `int64` | `item_features.parquet` | Years elapsed since the item's `release_year`. |
 | `category_affinity_match` | Interaction | `int64` | `interaction_features.parquet` | `1` if item genre matches user's `preferred_category`, else `0`. |
 | `user_rating_bias` | Interaction | `float64` | `interaction_features.parquet` | User's rating offset relative to global mean rating. |
+
 
 ## 6. Pipeline Execution & MLflow Tracking Screenshots
 
